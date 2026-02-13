@@ -14,7 +14,7 @@ importers:
     dependencies:
       '@alt-gnome/markdown-it-custom-containers':
         specifier: ^1.0.1
-        version: 1.0.1(markdown-it@14.1.0)
+        version: 1.0.1(markdown-it@14.1.1)
       '@ampernic/remark-lint-shiki-code-block-syntax-exist':
         specifier: 1.0.8-rc1
         version: 1.0.8-rc1
@@ -89,8 +89,8 @@ importers:
         specifier: ^8.19.4
         version: 8.19.4
       markdown-it:
-        specifier: ^14.1.0
-        version: 14.1.0
+        specifier: ^14.1.1
+        version: 14.1.1
       markdown-it-conditional-render:
         specifier: ^0.1.0
         version: 0.1.0
@@ -1893,6 +1893,7 @@ packages:
 
   glob@10.4.5:
     resolution: {integrity: sha512-7Bv8RF0k6xjo7d4A/PxYLbUCfb6c+Vpd2/mB2yRDlew7Jb5hEXiCD9ibfO7wpk8i4sevK6DFny9h7EYbM3/sHg==}
+    deprecated: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
     hasBin: true
 
   global-directory@4.0.1:
@@ -2232,8 +2233,8 @@ packages:
     resolution: {integrity: sha512-FtwnEuuK+2yVU7goGn/MJ0WBZMM9ZPgU9spqlFs7/A/pDIUNSOQZhUgOqYCficIuR2QaFnrt8LHqBWsbTAoI5w==}
     hasBin: true
 
-  markdown-it@14.1.0:
-    resolution: {integrity: sha512-a54IwgWPaeBCAAsv13YgmALOF1elABB08FxO9i+r4VFk5Vl4pKokRPeX8u5TCgSsPi6ec1otfLjdOpVcgbpshg==}
+  markdown-it@14.1.1:
+    resolution: {integrity: sha512-BuU2qnTti9YKgK5N+IeMubp14ZUKUUw7yeJbkjtosvHiP0AZ5c8IAgEMk79D0eC8F23r4Ac/q8cAIFdm2FtyoA==}
     hasBin: true
 
   marked@10.0.0:
@@ -3326,11 +3327,11 @@ snapshots:
     dependencies:
       '@algolia/client-common': 5.25.0
 
-  '@alt-gnome/markdown-it-custom-containers@1.0.1(markdown-it@14.1.0)':
+  '@alt-gnome/markdown-it-custom-containers@1.0.1(markdown-it@14.1.1)':
     dependencies:
       '@types/markdown-it': 14.1.2
       colorette: 2.0.20
-      markdown-it: 14.1.0
+      markdown-it: 14.1.1
       markdown-it-container: 4.0.0
 
   '@ampernic/remark-lint-shiki-code-block-syntax-exist@1.0.8-rc1':
@@ -5496,7 +5497,7 @@ snapshots:
 
   markdown-it-html5-embed@1.0.0:
     dependencies:
-      markdown-it: 14.1.0
+      markdown-it: 14.1.1
       mimoza: 1.0.0
 
   markdown-it-implicit-figures@0.12.0: {}
@@ -5514,7 +5515,7 @@ snapshots:
       uc.micro: 1.0.6
     optional: true
 
-  markdown-it@14.1.0:
+  markdown-it@14.1.1:
     dependencies:
       argparse: 2.0.1
       entities: 4.5.0
